@@ -34,13 +34,30 @@ http://ecotrust-canada.github.io/markdown-toc/ -->
 
 ## Requirements
 
-- A
+- Install Arduino Ide [link](https://www.arduino.cc/en/software/),
+- Go to File --> Preferences --> Additional boards manager URLs: **https://espressif.github.io/arduino-esp32/package_esp32_index.json**,
+  ![Preference](./assets/img/ESP32-C6-Arduino-ide-0.png)
+- Install development board
+    -  Select BOARDS MANAGER in the sidebar;
+    -  Enter the name of the board you want to install ESP32 in the search box;
+    -  Select Version Number in the box;
+    -  Click INSTALL.
+  ![esp32](./assets/img/ESP32-C6-Arduino-ide-1.png)
+- Install library 
+  - LVGL
+  - PNGdec
+  - [eez-framework](https://github.com/eez-open/eez-framework)
+- Arduino project parameter setting
+  ![setting](./assets/img/ESP32-C6-Arduino-ide-2.png)
 
 ## Installation 
 
+Directory:
+- src\MiniTic\src\ui\MiniTic
 
-```sh
 
+```
+Open MiniTic.ino
 ```
 
 ## Contributing
